@@ -1,8 +1,7 @@
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #26282c;
   color: #fff;
   min-width: 200px;
+  padding: 20px;
+  border-radius: 20px;
 }
