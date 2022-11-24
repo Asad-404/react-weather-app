@@ -2,7 +2,7 @@ export const countryCodeToCountryName = (code) => {
   const regionNamesInEnglish = new Intl.DisplayNames(["en"], {
     type: "region",
   });
-  return regionNamesInEnglish.of(code);
+  return regionNamesInEnglish.of(code) || "";
 };
 
 // convert temperature based on temperatureType
